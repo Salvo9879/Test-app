@@ -1,6 +1,10 @@
 {
     "name": "Test app",
     "technicalName": "test_app",
-    "authors": "Salvo9879",
-    "version": "1.0.0"
+    "author": "Salvo9879",
+    "version": "1.0.0",
+    "config": {
+        "SQLALCHEMY_BINDS": "test.db",
+        "SECRET_KEY": "123"
+    }
 }
